@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/command_et"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="Expression"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/result_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="24sp"
+        android:layout_marginTop="15dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/simplify_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Simplify"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"/>
+
+            <Button
+                android:id="@+id/factor_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Factor"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <Button
+                android:id="@+id/derive_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Derive"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/integrate_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Integrate"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"/>
+
+            <Button
+                android:id="@+id/find_0_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Find 0's"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/find_tangent_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Find Tangent"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"/>
+
+            <Button
+                android:id="@+id/area_under_curve_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Area Under Curve"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/cosine_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cosine"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"/>
+
+            <Button
+                android:id="@+id/sine_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sine"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/tangent_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tangent"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"/>
+
+            <Button
+                android:id="@+id/inverse_cosine_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inverse Cosine"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"/>
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/inverse_sine_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inverse Sine"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"/>
+            <Button
+                android:id="@+id/inverse_tangent_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inverse Tangent"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"/>
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/absolute_value_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Absolute Value"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"/>
+
+            <Button
+                android:id="@+id/logarithm_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logarithm"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

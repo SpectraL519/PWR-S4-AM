@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "665717272108",
+    "project_id": "pwr-am",
+    "storage_bucket": "pwr-am.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665717272108:android:6767ef69be31c8cd8aab89",
+        "android_client_info": {
+          "package_name": "com.tictactoe_online"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665717272108-4eb3n4ga101d9q1a43bqafkk3adgrt0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0DD5n9ZTQSlitbMV7MYyimjY4-JkThKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665717272108-4eb3n4ga101d9q1a43bqafkk3adgrt0t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
