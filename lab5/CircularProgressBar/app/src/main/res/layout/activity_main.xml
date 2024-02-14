@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.circular_progress_bar.CircularProgressBarView
+            android:id="@+id/circular_progress_bar"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:padding="20dp"
+            android:paddingBottom="40dp"
+            app:alpha="164"
+            app:end_value="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:primary_color="@color/dark_green"
+            app:progress_text_color="@color/white"
+            app:progress_text_size="120"
+            app:progress_value="0"
+            app:radius="200"
+            app:secondary_color="@color/light_green"
+            app:start_value="0" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="64dp" />
+
+        <SeekBar
+            android:id="@+id/progress_sb"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:progressBackgroundTint="@color/dark_green"
+            android:progressTint="@color/light_green"
+            android:thumbTint="@color/light_green"
+            android:min="0"
+            android:max="100" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

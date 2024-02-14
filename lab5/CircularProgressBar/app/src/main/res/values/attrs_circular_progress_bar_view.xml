@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularProgressBarView">
+        <attr name="primary_color" format="color" />
+        <attr name="secondary_color" format="color" />
+        <attr name="primary_alpha" format="integer" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_size" format="float" />
+        <attr name="radius" format="float" />
+        <attr name="start_value" format="float" />
+        <attr name="end_value" format="float" />
+        <attr name="progress_value" format="float" />
+    </declare-styleable>
+</resources>
