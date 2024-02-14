@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Gallery</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="image_urls">
+        <item>https://images.pexels.com/photos/3687770/pexels-photo-3687770.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+        <item>https://images.pexels.com/photos/895259/pexels-photo-895259.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+        <item>https://images.pexels.com/photos/2607546/pexels-photo-2607546.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+        <item>https://images.pexels.com/photos/2607545/pexels-photo-2607545.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+        <item>https://images.pexels.com/photos/2607541/pexels-photo-2607541.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+        <item>https://images.pexels.com/photos/2607540/pexels-photo-2607540.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+        <item>https://images.pexels.com/photos/2248516/pexels-photo-2248516.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+        <item>https://images.pexels.com/photos/4588052/pexels-photo-4588052.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+        <item>https://images.pexels.com/photos/3658120/pexels-photo-3658120.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+        <item>https://images.pexels.com/photos/4587971/pexels-photo-4587971.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+        <item>https://images.pexels.com/photos/3361739/pexels-photo-3361739.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+        <item>https://images.pexels.com/photos/2951921/pexels-photo-2951921.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+        <item>https://images.pexels.com/photos/3299906/pexels-photo-3299906.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+        <item>https://images.pexels.com/photos/5122188/pexels-photo-5122188.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+        <item>https://images.pexels.com/photos/5257587/pexels-photo-5257587.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+        <item>https://images.pexels.com/photos/5732461/pexels-photo-5732461.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+        <item>https://images.pexels.com/photos/5732474/pexels-photo-5732474.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+        <item>https://images.pexels.com/photos/3196887/pexels-photo-3196887.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+        <item>https://images.pexels.com/photos/4587987/pexels-photo-4587987.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1</item>
+    </string-array>
+</resources>
