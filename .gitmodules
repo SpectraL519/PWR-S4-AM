@@ -1,0 +1,3 @@
+[submodule "TicTacToe-Master"]
+	path = TicTacToe-Master
+	url = https://github.com/SpectraL519/TicTacToe-Master.git
